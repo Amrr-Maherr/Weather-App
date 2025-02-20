@@ -1,0 +1,40 @@
+header {
+    width: 100%;
+    margin-top: 20px;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    flex-wrap: wrap;
+}
+header nav .nav-list  ul{
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+gap: 50px;
+color: #ffffff;
+font-size: 25px;
+}
+header nav .nav-title  h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+}
+header nav .nav-button  button{
+    width: 165px;
+    padding: 20px 0px;
+    -o-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 20px;
+    background: linear-gradient(#3A5E72,#5C93B1);
+    border: none;
+    font-size: 25px;
+    font-weight: 500;
+    color: #ffffff;
+}

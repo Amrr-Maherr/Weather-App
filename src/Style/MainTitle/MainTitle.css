@@ -1,0 +1,15 @@
+.mainTitle {
+    width: 80%;
+    max-width: 778px;
+    height: 130px;
+    margin: 0px auto;
+    margin-top: 107px;
+    color: #ffffff;
+    text-align: center;
+}
+.mainTitle span {
+    background: linear-gradient(to right, #78CFFF, #CAECFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}

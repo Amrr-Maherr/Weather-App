@@ -1,0 +1,57 @@
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 75px 0px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.searchBar input {
+    height: 85px;
+    -o-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    border-radius: 12px;
+    background-color: #24343D;
+    border: none;
+    outline: none;
+    width: 80%;
+    max-width: 778px;
+    padding: 10px 0px;
+    padding-left: 30px;
+}
+.searchBar input::placeholder {
+    font-size: 23px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.search-button {
+    width: 165px;
+        padding: 20px 0px;
+        -o-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        border-radius: 20px;
+        background: linear-gradient(#3A5E72, #5C93B1);
+        border: none;
+        font-size: 25px;
+        font-weight: 500;
+        color: #ffffff;
+}
+section .container .row  .col-xl-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    background: linear-gradient(rgba(36, 53, 62, 0.6), rgba(255, 255, 255, 0.3));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
