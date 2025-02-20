@@ -25,7 +25,7 @@ function Main() {
 
     axios
       .get(
-        `http://api.weatherapi.com/v1/current.json?key=fcb705eb5e0845eab9c203644251702&q=${SearchValue}&aqi=no`
+        `https://api.weatherapi.com/v1/current.json?key=fcb705eb5e0845eab9c203644251702&q=${SearchValue}&aqi=no`
       )
       .then((response) => {
         setLocation(response.data.location);
