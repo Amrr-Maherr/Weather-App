@@ -5,7 +5,7 @@ header {
 header nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0px 20px;
     flex-wrap: wrap;
 }
@@ -19,10 +19,15 @@ gap: 50px;
 color: #ffffff;
 font-size: 25px;
 }
+header nav .nav-list ul li {
+    padding: 10px 0px;
+}
 header nav .nav-title  h1{
     font-size: 40px;
     font-weight: 500;
     color: #ffffff;
+    padding: 10px 0px;
+    text-align: center;
 }
 header nav .nav-button  button{
     width: 165px;
